@@ -1,0 +1,15 @@
+Project Outline
+Access Control Dashboard
+
+Purpose: Provides a centralized view of access controls across various systems, highlighting any misconfigurations or missing permissions.
+Features:
+Real-time monitoring of user permissions and roles.
+Automated periodic reviews to detect unauthorized access.
+Alerts for any high-risk configurations, such as admin accounts without MFA.
+Credential Manager Tool
+
+Purpose: Manages credential lifecycle, enforcing expiration policies, and checking for weak or reused credentials.
+Features:
+Automated tracking of credential expiration and alerts for renewal.
+Detection of reused or weak passwords across systems.
+Optional integration with password management systems or centralized authentication directories.
