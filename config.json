@@ -1,0 +1,31 @@
+{
+    "access_control": {
+        "mfa_required_roles": [
+            "admin",
+            "superuser"
+        ],
+        "high_risk_roles": [
+            "admin",
+            "root"
+        ],
+        "alert_thresholds": {
+            "critical": 10,
+            "high": 7,
+            "medium": 5,
+            "low": 2
+        },
+        "review_frequency": "monthly"
+    },
+    "credential_manager": {
+        "credential_expiration_days": 90,
+        "password_reuse_check": true,
+        "weak_password_check": true,
+        "alert_before_expiration_days": 14,
+        "allowed_password_strength": {
+            "min_length": 8,
+            "requires_uppercase": true,
+            "requires_digit": true,
+            "requires_special": true
+        }
+    }
+}
